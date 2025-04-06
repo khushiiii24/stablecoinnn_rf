@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import LogoSplash from "../components/logosplash";
+import LogoSplash from "../components/LogoSplash"; // Assuming you have a LogoSplash component
 
 export default function Home() {
   const navigate = useNavigate();
